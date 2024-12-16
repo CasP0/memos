@@ -7,7 +7,8 @@ An open-source, self-hosted note-taking solution designed for seamless deploymen
 <a href="https://www.usememos.com">Home Page</a> •
 <a href="https://www.usememos.com/blog">Blogs</a> •
 <a href="https://www.usememos.com/docs">Docs</a> •
-<a href="https://demo.usememos.com/">Live Demo</a>
+<a href="https://demo.usememos.com/">Live Demo</a> •
+<a href="/tourism">Tourism</a>
 
 <p>
   <a href="https://hub.docker.com/r/neosmemo/memos"><img alt="Docker pull" src="https://img.shields.io/docker/pulls/neosmemo/memos.svg"/></a>
@@ -24,6 +25,7 @@ An open-source, self-hosted note-taking solution designed for seamless deploymen
 - **Customizable** 🧩: Easily customize your server name, icon, description, system style, and execution scripts to make it uniquely yours.
 - **Open Source** 🦦: Memos embraces the future of open source, with all code available on GitHub for transparency and collaboration.
 - **Free to Use** 💸: Enjoy all features completely free, with no charges ever for any content.
+- **Refresh All Instances** 🔄: Instantly refresh all instances with a single command.
 
 ## Deploy with Docker in seconds
 
@@ -35,6 +37,8 @@ docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/mem
 > This command is only applicable for Unix/Linux systems. For Windows, please refer to the detailed [documentation](https://www.usememos.com/docs/install/container-install#docker-on-windows).
 >
 > The `~/.memos/` directory will be used as the data directory on your local machine, while `/var/opt/memos` is the directory of the volume in Docker and should not be modified.
+>
+> You can now refresh all instances with a single command.
 
 Learn more about [other installation methods](https://www.usememos.com/docs/install).
 

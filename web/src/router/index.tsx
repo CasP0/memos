@@ -17,7 +17,7 @@ import Setting from "@/pages/Setting";
 import SignIn from "@/pages/SignIn";
 import SignUp from "@/pages/SignUp";
 import UserProfile from "@/pages/UserProfile";
-import Tourism from "@/pages/Tourism";
+import Tourism from "@/pages/Tourism"; // Paaea
 
 export enum Routes {
   ROOT = "/",
@@ -28,7 +28,7 @@ export enum Routes {
   EXPLORE = "/explore",
   ABOUT = "/about",
   AUTH = "/auth",
-  TOURISM = "/tourism",
+  TOURISM = "/tourism" // P2019
 }
 
 const router = createBrowserRouter([
@@ -99,8 +99,8 @@ const router = createBrowserRouter([
             element: <About />,
           },
           {
-            path: Routes.TOURISM,
-            element: <Tourism />,
+            path: Routes.TOURISM, // P2019
+            element: <Tourism />, // P2019
           },
           {
             path: "403",
